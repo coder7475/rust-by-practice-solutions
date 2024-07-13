@@ -50,8 +50,60 @@ According to IEEE-754 specification:
 - Boolean logic deals with values that are either "true" or "false" (1 or 0)
 - Three Basic operations: AND, OR, NOT
 
+### Numbers - AND(&&)
+
+|   A   |   B   |   **Q**   |
+| :---: | :---: | :-------: |
+| false | false | **false** |
+| false | true  | **false** |
+| true  | false | **false** |
+| true  | true  | **true**  |
+
+### Numbers - OR(||)
+
+|   A   |   B   |   **Q**   |
+| :---: | :---: | :-------: |
+| false | false | **false** |
+| false | true  | **true**  |
+| true  | false | **true**  |
+| true  | true  | **true**  |
+
+### Numbers - NOT(!)
+
+|  ! A   |   **Q**   |
+| :----: | :-------: |
+| !false | **true**  |
+| !true  | **false** |
+
 ## Numbers - Bitwise Operations
 
 - Operations that manipulate individual bits that make up a binary number
 - Treating each bit of a binary number as a seperate unit and perform logical operations on them
-- AND, OR, XOR, bitwise shifting
+- AND(&), OR(|), XOR(^) bitwise shifting
+
+### Numbers - AND(&)
+
+|  A  |  B  | **Q** |
+| :-: | :-: | :---: |
+|  0  |  0  | **0** |
+|  0  |  1  | **0** |
+|  1  |  0  | **0** |
+|  1  |  1  | **0** |
+
+### Numbers - OR(|)
+
+|  A  |  B  | **Q** |
+| :-: | :-: | :---: |
+|  0  |  0  | **0** |
+|  0  |  1  | **1** |
+|  1  |  0  | **1** |
+|  1  |  1  | **1** |
+
+### Numbers - XOR(^)
+
+|  A  |  B  | **Q** |
+| :-: | :-: | :---: |
+|  0  |  0  | **0** |
+|  0  |  1  | **1** |
+|  1  |  0  | **1** |
+|  1  |  1  | **0** |
