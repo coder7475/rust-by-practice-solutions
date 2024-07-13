@@ -1,6 +1,6 @@
 fn main() {
  let x = 5; // ? i32
-//  println!("{}", type_of(&x));
+//*  println!("{}", type_of(&x));
  assert_eq!("i32".to_string(), type_of(&x));
  println!("Success!");
 }

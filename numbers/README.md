@@ -44,3 +44,14 @@ According to IEEE-754 specification:
 
 - f32 - size of 32 bits
 - f64 - size of 64 bits
+
+## Numbers - Boolean Logic
+
+- Boolean logic deals with values that are either "true" or "false" (1 or 0)
+- Three Basic operations: AND, OR, NOT
+
+## Numbers - Bitwise Operations
+
+- Operations that manipulate individual bits that make up a binary number
+- Treating each bit of a binary number as a seperate unit and perform logical operations on them
+- AND, OR, XOR, bitwise shifting
