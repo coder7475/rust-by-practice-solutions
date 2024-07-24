@@ -9,4 +9,5 @@
 ## Diverging functions:
 
 - Never return to the caller
+- So they may be used in places where a value of any type is expected
 - E.g: panic, looping forever, quitting program
