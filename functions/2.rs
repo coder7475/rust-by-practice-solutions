@@ -2,6 +2,6 @@ fn main() {
   print();
 }
 
-fn print() {
+fn print() -> () {
   println!("Success");
 }
