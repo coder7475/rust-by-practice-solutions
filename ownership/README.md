@@ -34,3 +34,26 @@
 
    - Accessible only within particular function or block of code
    - Not accessible outside of that function or block
+
+## Issues ownership helps solving
+
+- Dangling Pointer
+
+- Double free
+
+  - Trying to free memory that has already been freed
+
+- Memory leaks
+  - Not freeing memory that should have been freed
+
+## Borrowing & Referencing
+
+- Borrowing is a way to temporarily access data **without taking ownership** of it
+
+- When borrowing, you're taking **reference** (_pointer_) to the data, not the data itself
+
+- It prevents dangling pointers and data races
+
+- Data can be borrowed two ways:
+  - **Immutabily**
+  - **Mutably**
