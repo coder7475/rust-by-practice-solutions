@@ -9,3 +9,5 @@ on freeCodeCamp channel.
 - [Official Rust Programming Language Book](https://doc.rust-lang.org/book/title-page.html)
 
 - [Rust By Practice Book](https://practice.course.rs/why-exercise.html)
+
+- [Solution of Rust By Practice Book](https://github.com/sunface/rust-by-practice/tree/master/solutions)
