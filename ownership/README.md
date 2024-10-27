@@ -57,3 +57,16 @@
 - Data can be borrowed two ways:
   - **Immutabily**
   - **Mutably**
+
+## Partial Move
+
+- Within the destructuring of a single variable, both by-move and by-reference pattern bindings can be used at the same time
+
+- This results in a partial move of the variable:
+
+  - Some parts of the variable will be moved
+  - Other parts stay in place
+
+- After a partial move:
+  - The parent variable cannot be used as a whole
+  - Parts that were only referenced (not moved) can still be used
