@@ -4,7 +4,9 @@ fn main() {
  
      // Fill the blanks
      // * Sol 1
-     let (ref s1, ref s2) = t;
+    //  ? let (ref s1, ref s2) = t;
+    // * Sol 2
+    let (s1, s2) = t.clone();
  
      println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
  }
