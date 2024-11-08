@@ -34,9 +34,9 @@ fn main(){
     println!("s: {}, slice 1: {}, slice 2: {}", s, s1, s2); // Print full string and two slices
     
     let word = first_word(&s); // Get first word as a slice
-
-    println!("{}", word); // Print the first word
+    println!("the first word is: {word}");
 
     s.clear(); // Empty the string
-    println!("s is empty: {}", s); // Show that string is now empty
+
+    // ! println!("the first word is: {word}");
 }
