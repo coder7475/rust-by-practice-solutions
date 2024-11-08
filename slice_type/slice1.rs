@@ -9,14 +9,14 @@
  * ? Finds and returns the first word in a string
  * * @param s - The input string to search through
  * * @returns The index position where the first word ends (at the first space),
- *          or the length of the string if no space is found
+ *  
  */
 fn first_word(s: &String) -> usize {
-    let byte = s.as_bytes();
+    let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
         if item == b' ' {
-            return i;
+            return i; 
         }
     }
     s.len()
