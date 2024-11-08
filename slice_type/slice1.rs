@@ -12,7 +12,7 @@
  *  
  */ 
  
-fn first_word(s: &String) -> &str { // Function that takes a string reference and returns a string slice
+fn first_word(s: &str) -> &str { // Function that takes a string reference and returns a string slice
     let bytes = s.as_bytes(); // Convert string to bytes for character-by-character processing
 
     for (i, &item) in bytes.iter().enumerate() { // Iterate through bytes with their indices
