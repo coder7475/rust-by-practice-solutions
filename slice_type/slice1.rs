@@ -22,4 +22,12 @@ fn first_word(s: &String) -> usize {
     s.len()
 }
 
-fn main(){}
+fn main(){
+    let mut s = String::from("Hello World!");
+
+    let word = first_word(&s);
+    println!("{}", s);
+    println!("{}", word);
+    s.clear();
+    println!("s is empty: {}", s);
+}
